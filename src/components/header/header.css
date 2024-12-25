@@ -1,0 +1,121 @@
+header {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 30px 0px;
+  }
+  
+  header .headerSearch {  
+    width: 90%;
+    height: 42px;
+    border: 1px solid #bce3c9;
+    padding: 10px 10px; 
+    margin-left: 10px; 
+    border-radius: 4px;
+}
+  
+  header .headerSearch .selectDropwrapper {
+   
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    padding-right: 15px; /* Add space between the text and the line */
+}
+
+  header .headerSearch .selectDropwrapper::after {
+    content: '';
+    width: 1px;
+    height: 25px;
+    background: rgba(0, 0, 0, 0.2); 
+    position: absolute;
+    top: 9px;
+    right: 0;
+    margin-right: -12px;
+    
+}
+
+header .headerSearch .Search {
+
+    padding-left: 30px;
+    position: relative;
+}
+
+header .headerSearch .Search input {
+    border: 0;
+    outline: none !important;
+    font-size: 16px;
+}
+
+header .headerSearch .Search .SearchIcon{
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    font-size: 25px;
+    opacity: 1;
+
+
+}
+header .countryWrapper .selectDropwrapper{width: 160px !important; border: 1px solid rgba(0, 0, 0, 0.2); padding-left: 10px; height: 42px; display: flex; margin-left: -40px;
+  align-items: center;
+  padding-left: 1px;
+} 
+header .countryWrapper .selectDropwrapper .openSelect{width: 100%;}
+header .countryWrapper .selectDropwrapper .selectDrop{left: 0px !important;}
+header .countryWrapper .openSelect{color: #279a65 !important ;}
+
+
+
+header .headerTabs{
+  padding-left: 20px;
+ 
+  display: flex;
+  
+}
+header .headerTabs li{position: relative; gap: 20px;}
+header .headerTabs li span{font-size: 16px; cursor: pointer;} 
+header .headerTabs li span img{
+  margin-right: 5px;
+}
+
+header .headerTabs li span .badge{width: 22px; height: 22px; font-size: 12px; font-weight: 400; position: absolute; top:-16px; left: 9px;} 
+
+.dropdownMenu{
+  position: absolute;
+  top:100%;
+  right: 0;
+  height: auto;
+  width: 150px;
+  background: #fff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  top:120%;
+  z-index: 100px;
+ 
+   
+  
+  
+ 
+}
+.dropdownMenu li button{
+  border: none;
+  background-color: transparent;
+  padding: 5px 7px !important;
+  width:100% !important;
+  text-align: start;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.7)!important;
+  font-size: 16px !important;
+  justify-content: flex-start;box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2)s;
+
+
+}
+
+
+.dropdownMenu li {
+  width: 100%;
+  list-style: none;
+  display: flex; 
+  justify-content: flex-start; 
+  text-align: left; 
+}
+
+  

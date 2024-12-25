@@ -1,0 +1,24 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css');
+
+.home_slider_main{
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.slick-arrow{
+    position: absolute;
+top: 47%;
+width: 70px !important;
+height: 30px !important ;
+border-radius: 5px !important;
+background-color: red;
+z-index: 1000 !important;
+}
+.slick-arrow.select-next {
+    right: 2% !important; 
+}
+
+.slick-arrow.select-prev {
+    left: 2% !important; 
+}
